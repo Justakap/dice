@@ -38,6 +38,12 @@ if(randomNumber1<randomNumber2){
     document.querySelector("h1").innerHTML="Player 2 wins";
 }
 
+document.querySelector(".img1").addEventListener("click",function(){
+    location.reload();
+});
+document.querySelector(".img2").addEventListener("click",function(){
+    location.reload();
+});
 document.querySelector(".refreshButton").addEventListener("click",function(){
     location.reload();
 });
